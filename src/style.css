@@ -5,9 +5,11 @@ img {
     margin : auto;
     width : 250px;
     height : 200px;
+    
 }
 
-/* Background-color: color de fondo. Padding: es el espacio entre el contenido del elemento y su borde. Text-align: alineación texto */
+/* Background-color: color de fondo. Padding: es el espacio entre el contenido del elemento y su borde. Text-align: alineación texto */ 
+
 #box-number {
      background-color : rgba(252, 217, 217, 0.445);
      font-size : 15px;
@@ -15,12 +17,11 @@ img {
      margin-left : auto;
      margin-right : auto;
      padding : 0px;
-     height : 15vh;
+     height : 70px;
      border-radius : 5px;
      text-align : center;
 
 }
-
 
 h1, h2 {
      font-size : 20px;
@@ -35,7 +36,7 @@ h1, h2 {
      margin-left : auto;
      margin-right : auto;
      padding : 0px;
-     height : 25vh;
+     height : 160px;
      border-radius : 5px;
      text-align : center;
 
@@ -48,7 +49,7 @@ textarea {
     -moz-box-sizing : border-box;
     box-sizing : border-box;
     border : 1px solid #999;
-    height : 5em;
+    height : 60px;
     margin-top : 10px;
 }
   
@@ -59,7 +60,7 @@ textarea {
      margin-left : auto;
      margin-right : auto;
      padding : 0px;
-     height : 25vh;
+     height : 160px;
      border-radius : 5px;
      text-align : center;
 }
