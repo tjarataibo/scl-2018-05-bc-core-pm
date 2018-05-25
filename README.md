@@ -6,7 +6,7 @@ Antes de seguirlas, es importante que se entienda el método.
 
 ## Funcionalidad
 
-El Cifrado César era usado por el emperador Julio César para enviar órdenes a sus generales en los campos de batalla. Es una de las técnicas más simples y más usadas para cifrar un mensaje".
+El Cifrado César era usado por el emperador Julio César para enviar órdenes a sus generales en los campos de batalla. Es una de las técnicas más simples y más usadas para cifrar un mensaje.
 
 Por ejemplo si usáramos un desplazamiento de 3:
 
