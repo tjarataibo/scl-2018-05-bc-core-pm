@@ -1,3 +1,5 @@
+/* Display: si está en línea o en bloque. Margin auto para que quede centrado. Width: ancho. Height: alto */
+
 img {
     display : block;
     margin : auto;
@@ -5,6 +7,7 @@ img {
     height : 200px;
 }
 
+/* Background-color: color de fondo. Padding: es el espacio entre el contenido del elemento y su borde. Text-align: alineación texto */
 #box-number {
      background-color : rgba(252, 217, 217, 0.445);
      font-size : 15px;
@@ -38,13 +41,14 @@ h1, h2 {
 
 }
 
+/* Margin-top: anchura de su margen superior*/
+
 textarea {
     width : 300px;
     -moz-box-sizing : border-box;
     box-sizing : border-box;
     border : 1px solid #999;
     height : 5em;
-    resize : vertical;
     margin-top : 10px;
 }
   
