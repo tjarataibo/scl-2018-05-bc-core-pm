@@ -1,1 +1,46 @@
-/* Acá va tu código */
+#box-number {
+     background-color: rgba(252, 217, 217, 0.445);
+     font-size:15px;
+     width: 40%;
+     margin-left : auto;
+     margin-right : auto;
+     padding : 0px;
+     height: 15vh;
+     border-radius: 5px;
+     text-align: center;
+
+}
+
+
+h1, h2, h3 {
+     font-size:20px;
+     text-align: center;
+
+}
+
+#message {
+     background-color: rgba(184, 108, 139, 0.445);
+     font-size:15px;
+     width: 40%;
+     margin-left : auto;
+     margin-right : auto;
+     padding : 0px;
+     height: 15vh;
+     border-radius: 5px;
+     text-align: center;
+
+}
+    
+#cipher {
+     background-color: rgba(153, 214, 214, 0.445);
+     font-size:15px;
+     width: 40%;
+     margin-left : auto;
+     margin-right : auto;
+     padding : 0px;
+     height: 15vh;
+     border-radius: 5px;
+     text-align: center;
+}
+
+
