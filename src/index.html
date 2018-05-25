@@ -2,12 +2,41 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Caesar Cipher</title>
+  <title>Cifrado César</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
   <div id="root"></div>
+
+  <!--Dar opción a ingresar el número de desplazamiento-->
+
+  <div id="box-number">
+      <form>
+      <h1> Ingresa el número de desplazamiento </h1>
+      <p>Valor fijo: <input type="text" id="lnumber"></p>
+ </div>
+
+<!--Dar opción a ingresar un mensaje escrito para cifrar, descifrar y resetear-->
+
+  <div id="message">
+
+      <h2> Escribe un mensaje </h2>
+      <p>Mensaje: <input type="text" id="lmessage"></p>
+      <button type= "button"> Cifrar</button>
+      <button type= "button"> Descifrar</button>
+      <button type= "button"> Resetear</button>
+      </form>
+   
+  </div>
+
+  <!--Cifrar o Descifrar mensaje-->
+
+  <div id="cipher">
+
+      <h3> Mensaje cifrado/descifrado </h3>
+     
+  </div>
+
 
   <script src="cipher.js"></script>
   <script src="index.js"></script>
