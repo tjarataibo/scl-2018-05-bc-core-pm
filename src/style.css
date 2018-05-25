@@ -1,53 +1,63 @@
 img {
-    display: block;
-    margin: auto;
-    width: 250px;
-    height: 200px;
+    display : block;
+    margin : auto;
+    width : 250px;
+    height : 200px;
 }
 
 #box-number {
-     background-color: rgba(252, 217, 217, 0.445);
-     font-size:15px;
-     width: 40%;
+     background-color : rgba(252, 217, 217, 0.445);
+     font-size : 15px;
+     width : 40%;
      margin-left : auto;
      margin-right : auto;
      padding : 0px;
-     height: 15vh;
-     border-radius: 5px;
-     text-align: center;
+     height : 15vh;
+     border-radius : 5px;
+     text-align : center;
 
 }
 
 
 h1, h2 {
-     font-size:20px;
-     text-align: center;
+     font-size : 20px;
+     text-align : center;
 
 }
 
 #message {
-     background-color: rgba(184, 108, 139, 0.445);
-     font-size:15px;
-     width: 40%;
+     background-color : rgba(184, 108, 139, 0.445);
+     font-size : 15px;
+     width : 40%;
      margin-left : auto;
      margin-right : auto;
      padding : 0px;
-     height: 15vh;
-     border-radius: 5px;
-     text-align: center;
+     height : 15vh;
+     border-radius : 5px;
+     text-align : center;
 
 }
-    
+
+textarea {
+    width : 300px;
+    -moz-box-sizing : border-box;
+    box-sizing : border-box;
+    border : 1px solid #999;
+    height : 5em;
+    resize : vertical;
+    margin-top : 10px;
+}
+  
 #cipher {
-     background-color: rgba(153, 214, 214, 0.445);
-     font-size:15px;
-     width: 40%;
+     background-color : rgba(153, 214, 214, 0.445);
+     font-size :15px;
+     width : 40%;
      margin-left : auto;
      margin-right : auto;
      padding : 0px;
-     height: 15vh;
-     border-radius: 5px;
-     text-align: center;
+     height : 15vh;
+     border-radius : 5px;
+     text-align : center;
 }
 
 
