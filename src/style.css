@@ -11,7 +11,7 @@ img {
 /* Background-color: color de fondo. Padding: es el espacio entre el contenido del elemento y su borde. Text-align: alineación texto */ 
 
 #box-number {
-     background-color : rgba(252, 217, 217, 0.445);
+     background-color : rgba(112, 104, 25, 0.514);
      font-size : 15px;
      width : 40%;
      margin-left : auto;
@@ -29,8 +29,8 @@ h1, h2 {
 
 }
 
-#message {
-     background-color : rgba(184, 108, 139, 0.445);
+#sentence {
+     background-color : rgba(184, 149, 108, 0.918);
      font-size : 15px;
      width : 40%;
      margin-left : auto;
@@ -54,7 +54,7 @@ textarea {
 }
   
 #cipher {
-     background-color : rgba(153, 214, 214, 0.445);
+     background-color : rgba(233, 206, 85, 0.445);
      font-size :15px;
      width : 40%;
      margin-left : auto;
