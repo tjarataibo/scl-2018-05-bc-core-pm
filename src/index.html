@@ -13,18 +13,18 @@
 
   <div id="box-number">
       <form>
-      <h1> Ingresa el número de desplazamiento </h1>
-      <p><strong>Valor fijo:<input type="text" id="lnumber"></strong></p>
+      <h1> Ingresa el número de desplazamiento</h1>
+      <p><strong>Valor fijo:<input type="text" id="offset"></strong></p>
  </div>
 
   <!--Dar opción a ingresar un mensaje escrito para cifrar, descifrar y resetear-->
 
-  <div id="message">
+  <div id="sentence">
       <h2> Escribe un mensaje </h2>
-      <textarea name="mensaje"/></textarea></p>
-      <button type= "button"> Cifrar</button onclick="()"> 
-      <button type= "button"> Descifrar</button onclick=" ()">
-      <button type= "button"> Resetear</button onclick=" ()"> 
+      <textarea name="write" id= "text"/></textarea></p>
+      <button type= "button" onclick="encodeGetData()"> Cifrar</button> 
+      <button type= "button" onclick="decodeGetData()"> Descifrar</button>
+      <button type= "button" onclick="location.reload()"> Resetear</button> 
   </div>    
 
       </form>
@@ -34,7 +34,7 @@
   <div id="cipher">
 
       <h3> Mensaje cifrado/descifrado </h3>
-      <textarea name="cipherDecipher"/></textarea></p>
+      <textarea name="cipherDecipher" id= "message"/></textarea></p>
      
   </div>
 
