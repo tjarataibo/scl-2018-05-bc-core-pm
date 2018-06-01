@@ -15,7 +15,7 @@ Por ejemplo si usáramos un desplazamiento de 3:
 
 ## Instrucciones
 
-   1.- Abrir el siguiente link:
+   1.- Abrir en una nueva pestaña el siguiente link:
     https://tjarataibo.github.io/scl-2018-05-bc-core-pm/src/index.html
 
    2.- Ingresar el número de desplazamiento, entendido también como "Valor fijo" en las fórmulas del cifrado. Este número debe insertarse en el campo señalado para que el mensaje comience a cifrarse.
