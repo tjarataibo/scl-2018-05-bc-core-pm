@@ -1,7 +1,7 @@
 
 ## Introducción
 
-En la presenta página, se da a conocer la práctica del Cifrado César, donde al escribir un mensaje, el usuario tendrá la opción de cifrar y/o descifrar este. Para ello, es importante seguir las instrucciones explícitas definidas en este extracto.
+En la presente página, se da a conocer la práctica del Cifrado César, donde al escribir un mensaje, el usuario tendrá la opción de cifrar y/o descifrar este. Para ello, es importante seguir las instrucciones explícitas definidas en este extracto.
 Antes de seguirlas, es importante que se entienda el método.
 
 ## Funcionalidad
