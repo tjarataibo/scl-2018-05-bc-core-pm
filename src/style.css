@@ -1,18 +1,20 @@
 /* Display: si está en línea o en bloque. Margin auto para que quede centrado. Width: ancho. Height: alto */
 
-img {
+img 
+{
     display : block;
     margin : auto;
     width : 250px;
     height : 200px;
-    
 }
 
 /* Background-color: color de fondo. Padding: es el espacio entre el contenido del elemento y su borde. Text-align: alineación texto */ 
 
-#box-number {
+#box-number 
+{
+     font-family :'Yanone Kaffeesatz', sans-serif;
      background-color : rgba(112, 104, 25, 0.514);
-     font-size : 15px;
+     font-size : 20px;
      width : 40%;
      margin-left : auto;
      margin-right : auto;
@@ -20,18 +22,43 @@ img {
      height : 70px;
      border-radius : 5px;
      text-align : center;
-
 }
 
-h1, h2 {
+/* FLECHA NO FUNCIONA
+.fa-arrow-right 
+{
+    color : black;
+    position : relative;
+    padding:  0.6px;
+    width : 20%;
+    bottom : 32px;
+    left: 630px;
+ }
+*/
+
+input 
+{
+    padding:  0.6px;
+    position : relative;
+    width : 8%;
+    height : 20px;
+    text-align : center;
+    font-size : 15px;
+    bottom : 10px;
+}
+
+h1, h2, h3 
+{
+     font-family :'Yanone Kaffeesatz', sans-serif;
      font-size : 20px;
      text-align : center;
-
+     bottom : 100px;
 }
 
-#sentence {
+#sentence 
+{
      background-color : rgba(184, 149, 108, 0.918);
-     font-size : 15px;
+     font-size : 20px;
      width : 40%;
      margin-left : auto;
      margin-right : auto;
@@ -39,23 +66,35 @@ h1, h2 {
      height : 160px;
      border-radius : 5px;
      text-align : center;
-
 }
 
 /* Margin-top: anchura de su margen superior*/
 
-textarea {
+textarea 
+{
     width : 300px;
     -moz-box-sizing : border-box;
     box-sizing : border-box;
     border : 1px solid #999;
     height : 60px;
-    margin-top : 10px;
+    margin-top : 0.5px;
+}
+
+.buttons 
+{
+    padding:  0.6px;
+    position : relative;
+    width : 20%;
+    text-align : center;
+    font-size : 15px;
+    bottom : 6px;
 }
   
-#cipher {
+#cipher 
+{
+     font-family :'Yanone Kaffeesatz', sans-serif;
      background-color : rgba(233, 206, 85, 0.445);
-     font-size :15px;
+     font-size :20px;
      width : 40%;
      margin-left : auto;
      margin-right : auto;
@@ -64,5 +103,6 @@ textarea {
      border-radius : 5px;
      text-align : center;
 }
+
 
 
