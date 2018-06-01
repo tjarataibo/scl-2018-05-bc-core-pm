@@ -3,7 +3,7 @@
     window.cipher = 
 {
   //Función predeterminada
-  encode : (offset, string) =>
+  encode : (string, offset) =>
 
     //Creo una variable de lo que el usuario podría escribir
   {
@@ -11,7 +11,7 @@
     //En caso de repetición (es predeterminada)
     for (let index = 0; index < string.length; ++index) 
     {      
-      //Leer minúsculas y mayúsculas
+      //Transformar minúsculas en mayúsculas
       string = string.toUpperCase();
       //Conversión de código ASCII 
       const X = string.charCodeAt(index);  
@@ -21,7 +21,7 @@
       const fromX = String.fromCharCode(position);
       //Para guardar el mensaje cifrado
       sentence += fromX;
-    } 
+    }                              
    
   //Para retornar el mensaje cifrado  
   return sentence;
@@ -32,7 +32,7 @@
  //Descifrar 
 
   //Función predeterminada
-  decode : (offset, string) =>
+  decode : (string, offset) =>
 
   //Creo una variable de lo que el usuario podría escribir
 {
@@ -40,9 +40,9 @@
   //En caso de repetición (es predeterminada)
    for (let index = 0; index < string.length; ++index) 
    {      
-     //Leer minúsculas y mayúsculas
+     //Transformar minúsculas en mayúsculas
      string = string.toUpperCase();
-     //Conversión de código ASCII 
+     //Conversión de código ASCII (me devuelve el último carácter)
      const X = string.charCodeAt(index);  
      //Número de la letra para encontrar su ubicación en ASCII (aquí tiene que retroceder y volver a ser el mensaje original)
      let position = ((X + 65 - offset) % 26 ) + 65;

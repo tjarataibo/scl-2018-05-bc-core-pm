@@ -3,6 +3,14 @@
 <head>
   <meta charset="utf-8">
   <title>Cifrado César</title>
+
+<!--Link de fuente-->
+
+  <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+  
+<!--Link de flecha
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">-->
+  
   <link rel="stylesheet" href="style.css"/>
   <img src="Cifrado.jpg">
 </head>
@@ -13,23 +21,23 @@
 
   <div id="box-number">
       <form>
-      <h1> Ingresa el número de desplazamiento</h1>
-      <p><strong>Valor fijo:<input type="text" id="offset"></strong></p>
+      <h1> Ingresa el número de desplazamiento (valor fijo)</h1>
+      <p><input type="text" id="offset"></strong></p> 
  </div>
 
   <!--Dar opción a ingresar un mensaje escrito para cifrar, descifrar y resetear-->
 
-  <div id="sentence">
+  <div id="sentence"> 
       <h2> Escribe un mensaje </h2>
       <textarea name="write" id= "text"/></textarea></p>
-      <button type= "button" onclick="encodeGetData()"> Cifrar</button> 
-      <button type= "button" onclick="decodeGetData()"> Descifrar</button>
-      <button type= "button" onclick="location.reload()"> Resetear</button> 
+      <button type= "button" class= buttons  onclick="encodeGetData()"> Cifrar</button> 
+      <button type= "button" class= buttons  onclick="decodeGetData()"> Descifrar</button>
+      <button type= "button" class= buttons  onclick="location.reload()"> Resetear</button> 
   </div>    
 
       </form>
    
-  <!--Mensaje cifrado o descifrado-->
+  <!--Mensaje cifrado o descifrado--> 
 
   <div id="cipher">
 
