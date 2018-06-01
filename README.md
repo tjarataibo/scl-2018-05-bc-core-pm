@@ -15,10 +15,13 @@ Por ejemplo si usáramos un desplazamiento de 3:
 
 ## Instrucciones
 
-   1.- Ingresar el número de desplazamiento, entendido también como "Valor fijo" en las fórmulas del cifrado. Este número debe insertarse en el campo señalado para que el mensaje comience a cifrarse.
+   1.- Haz click en el siguiente link:
+    https://tjarataibo.github.io/scl-2018-05-bc-core-pm/src/index.html
+
+   2.- Ingresar el número de desplazamiento, entendido también como "Valor fijo" en las fórmulas del cifrado. Este número debe insertarse en el campo señalado para que el mensaje comience a cifrarse.
    En el caso de tener un mensaje cifrado, este número se ingresa de igual modo para que sea descifrado correctamente.
    
-   2.- Escribir un mensaje para dar la orden de "cifrar" o "descifrar". 
+   3.- Escribir un mensaje para dar la orden de "cifrar" o "descifrar". 
    Cualquiera sea el caso, se puede revertir dependiendo de la orden que uno requiera o, en su defecto, limpiar la página dando "resetear".
 
 ¡Manos a la obra!
